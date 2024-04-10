@@ -1,1 +1,11 @@
-# clash-meta
+- {name: "a5f7f55160 reality-vision", type: vless, server: 2a12:bec0:16e:a::, port: 39553, uuid: fc8ddf7e-4e52-4bf5-9866-d842017a89a9, network: tcp, udp: true, tls: true, servername: addons.mozilla.org, flow: xtls-rprx-vision, client-fingerprint: chrome, reality-opts: {public-key: i5AurdeqV1etcb0CQi1Y8_1gJone-4vio80UB6PuYnU, short-id: ""} }
+
+  - {name: "a5f7f55160 reality-grpc", type: vless, server: 2a12:bec0:16e:a::, port: 39553, uuid: fc8ddf7e-4e52-4bf5-9866-d842017a89a9, network: grpc, udp: true, tls: true, servername: addons.mozilla.org, flow: , client-fingerprint: chrome, reality-opts: {public-key: i5AurdeqV1etcb0CQi1Y8_1gJone-4vio80UB6PuYnU, short-id: ""}, grpc-opts: {grpc-service-name: "grpc"} }
+
+  - {name: "a5f7f55160-Vl", type: vless, server: cn.azhz.eu.org, port: 443, uuid: fc8ddf7e-4e52-4bf5-9866-d842017a89a9, udp: true, tls: true, servername: kevin-thorough-maintenance-terry.trycloudflare.com, skip-cert-verify: false, network: ws, ws-opts: {path: "/argox-vl", headers: {Host: kevin-thorough-maintenance-terry.trycloudflare.com}, "max_early_data":2408, "early_data_header_name":"Sec-WebSocket-Protocol"} }
+
+  - {name: "a5f7f55160-Vm", type: vmess, server: cn.azhz.eu.org, port: 443, uuid: fc8ddf7e-4e52-4bf5-9866-d842017a89a9, udp: true, alterId: 0, cipher: none, tls: true, servername: kevin-thorough-maintenance-terry.trycloudflare.com, skip-cert-verify: true, network: ws, ws-opts: {path: "/argox-vm", headers: {Host: kevin-thorough-maintenance-terry.trycloudflare.com}, "max_early_data":2408, "early_data_header_name":"Sec-WebSocket-Protocol"}}
+
+  - {name: "a5f7f55160-Tr", type: trojan, server: cn.azhz.eu.org, port: 443, password: fc8ddf7e-4e52-4bf5-9866-d842017a89a9, udp: true, tls: true, servername: kevin-thorough-maintenance-terry.trycloudflare.com, sni: kevin-thorough-maintenance-terry.trycloudflare.com, skip-cert-verify: false, network: ws, ws-opts: { path: "/argox-tr", headers: {Host: kevin-thorough-maintenance-terry.trycloudflare.com}, "max_early_data":2408, "early_data_header_name":"Sec-WebSocket-Protocol" } }
+
+  - {name: "a5f7f55160-Sh", type: ss, server: cn.azhz.eu.org, port: 443, cipher: chacha20-ietf-poly1305, password: fc8ddf7e-4e52-4bf5-9866-d842017a89a9, udp: true, plugin: v2ray-plugin, plugin-opts: { mode: websocket, host: kevin-thorough-maintenance-terry.trycloudflare.com, path: "/argox-sh", tls: true, servername: kevin-thorough-maintenance-terry.trycloudflare.com, skip-cert-verify: false, mux: false } }
